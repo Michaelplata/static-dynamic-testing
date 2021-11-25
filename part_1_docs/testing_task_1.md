@@ -16,14 +16,14 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-# to check if the card is equal to 1 double equals to sign should be used ("==" instead of "=")
+# to check if the card is equal to 1 double equals to sign should be used ("==" instead of "=") also colon sign is missing after the "else" on line 23
   def check_for_ace(self, card):
     if card.value = 1:
       return True
     else
       return False
    
-# to define a function "def" should be used instead of "dif"
+# to define a function "def" should be used instead of "dif", the comma is missing after card1 on line 28
 # also "card" is not defined 
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
